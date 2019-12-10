@@ -1,0 +1,31 @@
+.menu{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 160px;  
+    padding: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: #cfcfcf;
+    padding: 25px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+.link {
+    padding: 22px;
+}
+
+.link a:hover {
+    color: black;
+}
+

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:500&display=swap');
+
+
+
+.cadre {
+    background-color: #fff;
+}
+body{
+    margin: 0;padding: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 1500px;
+    background-color: #f6f6f6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titre_gauche {
+    text-align: center;
+    color: #e72b3f;
+    font-size: 23px;
+}
+
+.titre_droite {
+    text-align: center;
+    color: #e72b3f;
+    font-size: 23px;
+    
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.paragraphe{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.background-img {
+    width: 100%;
+}
+
+.carre {
+    width:auto;
+    height:60px;
+    background:#e72b3f;
+    margin:10px auto;
+    text-align: center;
+}
+
+.carre :hover {
+    background-color: #c82133;
+}
+
+.lien-carte {
+    color: #fff;
+    text-align: center;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.histoire {
+    text-align: center;
+    color: #545353;
+    font-size: 17px;
+}
+
+.histoire-titre {
+    color: #3a3838;
+    font-size: 17px;
+}
+
+.carre-deux {
+    width:auto;
+    height:60px;
+    background:#e72b3f;
+    margin:10px auto;
+    text-align: center; 
+}
+
+.carre-deux :hover {
+    background-color: #c82133;
+}
+.lien-adresse {
+    color: #fff;
+    text-align: center;
+    padding: 18px; 
+    font-size: 20px;
+}
+
+img{
+    display: block;
+}
+
+.carre-img {
+    width: 30%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    width:auto;
+    height:90px;
+    background:#313131;
+    margin:10px auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.logo-footer {
+    width: 20%;
+    display: block;
+    margin-left: 40%;
+    margin-right: 40%;
+    align-items: center;
+}
+
+.reseaux {
+    width:auto;
+    height:60px;
+    background:#141414;
+    margin:10px auto;
+    text-align: center; 
+    
+}
+
+.titre_act {
+    text-align: center;
+    color: #e72b3f;
+    font-size: 23px;
+}
+
+.lien-coupons {
+    color: #fff;
+    text-align: center;
+    padding: 18px; 
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lien-d-carte {
+    color: #fff;
+    text-align: center;
+    padding: 18px; 
+    font-size: 20px;
+}
+
+.actu {
+    text-decoration: underline;
+    font-weight: 400;
+    margin-left: 215px;
+}
+    
+.big-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notr {
+    text-decoration: underline;
+    font-weight: 400;
+    margin-left: 180px;
+}
+
+.map{
+    margin-left: 180px;
+}
+
+.text-resto{
+    padding:  50px;
+}
+
+/** Carte **/
+
+.nu {
+    text-align: center;
+    color: #545353;
+    font-size: 17px;
+}
+
+.nu h3 {
+    margin-bottom: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.minus-img {
+    background-image: url("../img/minus.png");
+}
+
+.plus-img {
+    background-image: url("../img/plus.png");
+}
+
+.plus-img, .minus-img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hide sub-menu by default and sub tags */
+.menu-carte, .menu-carte * {
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    visibility: hidden;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-carte.show, .menu-carte.show * {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+    margin-top: 10px;
+}
+
